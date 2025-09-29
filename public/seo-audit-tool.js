@@ -48,7 +48,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Usar un proxy CORS para evitar problemas de Same-Origin Policy
     // ADVERTENCIA: Depender de proxies públicos puede ser inestable y tener límites.
     // Para un uso serio, considera configurar tu propio proxy si tienes un servidor.
-    const proxyUrl = `const proxyUrl = `https://seo-audit-proxy-kk0zal0se-carmen-e-silva-hs-projects.vercel.app/api/proxy?url=${encodeURIComponent(url)}`;
+   const proxyUrl = `https://seo-audit-proxy-6d6ymh8tq-carmen-e-silva-hs-projects.vercel.app/api/proxy?url=${encodeURIComponent(url)}`;
+
 `;
 
     fetch(proxyUrl)
